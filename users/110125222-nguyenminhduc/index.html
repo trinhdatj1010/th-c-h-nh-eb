@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Thông tin sinh viên</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial;
+        background: #0f172a;
+        color: white;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        height: 100vh;
+    }
+
+    .sidebar {
+        background: #1e3a8a;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .avatar {
+        width: 120px;
+        height: 120px;
+        background: white;
+        margin: 0 auto 15px;
+        border-radius: 10px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sidebar h2 {
+        margin: 10px 0;
+    }
+
+    .main {
+        padding: 20px;
+        background: #020617;
+    }
+
+    .block {
+        margin-bottom: 20px;
+        padding: 15px;
+        background: #111827;
+        border-left: 5px solid #3b82f6;
+    }
+
+    .block h3 {
+        margin-top: 0;
+        color: #60a5fa;
+    }
+
+    .hobbies span {
+        display: inline-block;
+        border: 1px solid #3b82f6;
+        padding: 5px 10px;
+        margin: 5px 5px 0 0;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    
+    <div class="sidebar">
+        <div class="avatar">
+            <img src="oldmemories.jpg" alt="Ảnh đại diện">
+        </div>
+        <h2>Nguyễn Minh Đức</h2>
+        <p>MSSV: 110125222</p>
+        <p>Lớp: DA25TTA</p>
+    </div>
+  
+    <div class="main">
+
+        <div class="block">
+            <h3>Thông tin cá nhân</h3>
+            <p>Ngày sinh: 06/09/2007</p>
+            <p>Địa chỉ: Trà Vinh</p>
+        </div>
+
+        <div class="block">
+            <h3>Hoạt động</h3>
+            <p>- Tham gia CLB</p>
+            <p>- Tình nguyện</p>
+        </div>
+
+        <div class="block">
+            <h3>Sở thích</h3>
+            <div class="hobbies">
+                <span>Nghe nhạc</span>
+                <span>Chơi game</span>
+                <span>Xem phim</span>
+            </div>
+        </div>
+
+        <div class="block">
+            <h3>Thành tích</h3>
+            <p>Có kinh nghiệm 18 năm ăn bám</p>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

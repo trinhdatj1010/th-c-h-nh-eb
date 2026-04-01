@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thẻ Sinh Viên</title>
+    <style>
+        body {
+            background: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            width: 520px;
+            margin: 30px auto;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            background: #fff;
+        }
+
+        .header {
+            background: linear-gradient(90deg, #007bff, #00c6ff);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 10px;
+            vertical-align: top;
+        }
+
+        .avatar {
+            width: 120px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 2px solid #007bff;
+        }
+
+        .info p {
+            margin: 5px 0;
+        }
+
+        .section {
+            background: #f0f8ff;
+            border-top: 1px solid #ddd;
+        }
+
+        .section-title {
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            margin: 5px 0 10px 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="header">THẺ SINH VIÊN</div>
+
+    <table>
+        <!-- Hàng trên -->
+        <tr>
+            <td style="width:150px; text-align:center;">
+                <img src="https://via.placeholder.com/120x150" class="avatar" alt="Ảnh sinh viên">
+            </td>
+            <td class="info">
+                <p><strong>Họ tên:</strong> Trịnh Minh Thiện</p>
+                <p><strong>Lớp:</strong> DA25TTA</p>
+                <p><strong>Năm sinh:</strong> 2007</p>
+                <p><strong>Ngành:</strong> Công nghệ thông tin</p>
+                <p><strong>Hệ:</strong> Chính quy</p>
+            </td>
+        </tr>
+
+        <!-- Hàng dưới -->
+        <tr class="section">
+            <td colspan="2">
+                <div class="section-title">Hoạt động</div>
+                <ul>
+                    <li>Đọc sách</li>
+                    <li>Chơi thể thao</li>
+                    <li>Lập trình</li>
+                </ul>
+
+                <div class="section-title">Thành tích</div>
+                <ul>
+                    <li>Giải 3 cầu lông cấp trường</li>
+                    <li>Sinh viên 5 tốt</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>

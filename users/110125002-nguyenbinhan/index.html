@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thẻ Sinh Viên - Nguyễn Bình An</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            width: 420px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            border: 1px solid #ccc;
+            overflow: hidden;
+        }
+
+        /* Tiêu đề nằm trên đầu */
+        .card-header {
+            background-color: #1a5276;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        .card-header h1 {
+            margin: 0;
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .card-body {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        /* Khung ảnh 3x4 chuẩn */
+        .photo-container {
+            width: 113px; 
+            height: 151px;
+            border: 1px solid #ddd;
+            background: #f9f9f9;
+            flex-shrink: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .photo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Thông tin sinh viên */
+        .student-info {
+            flex: 1;
+        }
+
+        .student-info h2 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+            color: #c0392b; /* Màu đỏ cho tên nổi bật */
+            text-transform: uppercase;
+        }
+
+        .info-item {
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .info-item span {
+            font-weight: bold;
+            color: #555;
+            width: 75px;
+            display: inline-block;
+        }
+
+        /* Phần sở thích & thành tích */
+        .extra-sections {
+            padding: 0 20px 15px 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .section {
+            width: 48%;
+        }
+
+        .section h3 {
+            font-size: 13px;
+            color: #1a5276;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 5px;
+            padding-bottom: 2px;
+        }
+
+        .section ul {
+            margin: 0;
+            padding-left: 15px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .footer {
+            background: #f1f1f1;
+            text-align: center;
+            padding: 5px;
+            font-size: 10px;
+            color: #999;border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="card-header">
+        <h1>Thẻ Sinh Viên</h1>
+    </div>
+
+    <div class="card-body">
+        <div class="photo-container">
+            <img src="https://via.placeholder.com/113x151?text=3x4+Photo" alt="Ảnh thẻ">
+        </div>
+
+        <div class="student-info">
+            <h2>Nguyễn Bình An</h2>
+            <div class="info-item"><span>MSSV:</span> 110125002</div>
+            <div class="info-item"><span>Lớp:</span> DA25TTA</div>
+            <div class="info-item"><span>Ngành:</span> CNTT</div>
+            <div class="info-item"><span>Khóa:</span> 2025 - 2029</div>
+            <div class="info-item"><span>Hệ:</span> Chính quy</div>
+        </div>
+    </div>
+
+    <div class="extra-sections">
+        <div class="section">
+            <h3>⭐ Hoạt động</h3>
+            <ul>
+                <li>Nghe Nhạc</li>
+                <li>Chơi thể thao</li>
+                <li>Học tập</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h3>🏆 Thành tích</h3>
+            <ul>
+                <li>Vẽ Tranh Cấp Trường</li>
+                <li>Sinh viên 5 tốt</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        TRƯỜNG ĐẠI HỌC TRÀ VINH
+    </div>
+</div>
+
+</body>
+</html>

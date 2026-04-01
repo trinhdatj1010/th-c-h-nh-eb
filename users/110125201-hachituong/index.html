@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thông Tin Sinh Viên</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            width: 380px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            padding: 20px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .top {
+            display: flex;
+            gap: 15px;
+        }
+
+        .avatar {
+            width: 90px;       /* tỉ lệ 3x4 */
+            height: 120px;
+            border-radius: 8px;
+            object-fit: cover;
+            border: 2px solid #ccc;
+        }
+
+        .info p {
+            margin: 4px 0;
+            font-size: 14px;
+        }
+
+        .section {
+            margin-top: 15px;
+        }
+
+        .section h3 {
+            margin-bottom: 5px;
+            color: #0077cc;
+        }
+
+        ul {
+            padding-left: 18px;
+            margin: 0;
+        }
+
+        li {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="title">THÔNG TIN SINH VIÊN</div>
+
+    <div class="top">
+        <!-- ẢNH 3x4 -->
+        <img src="anhcanhan.jpg" alt="Ảnh 3x4" class="avatar">
+
+        <div class="info">
+            <p><strong>Họ tên:</strong> Hà Chí Tường </p>
+            <p><strong>Lớp:</strong> DA25TTA</p>
+            <p><strong>Năm sinh:</strong> 2007</p>
+            <p><strong>Ngành:</strong> Công Nghệ Thông Tin</p>
+            <p><strong>Hệ:</strong> Chính quy</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3> Hoạt động và sở thích</h3>
+        <ul>
+            <li>Ăn uống</li>
+            <li>Chơi thể thao</li>
+            <li>Học tập</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>Thành tích</h3>
+        <ul>
+            <li>Sinh viên 5 tốt</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>

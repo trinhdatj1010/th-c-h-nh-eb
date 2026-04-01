@@ -1,0 +1,35 @@
+table
+	{
+		width: 100%;
+		height: 100%;
+		border: 1px solid black;
+  		border-collapse: collapse;
+		border-radius: 15px;
+		overflow: hidden;
+		background: linear-gradient(90deg, #fff4ca 0%, #ffffff 100%);
+
+
+	}
+
+
+	th, td 
+	{
+  		border: 1px solid black;
+  		border-collapse: collapse;
+		border-radius: 15px;
+		color:black;
+	}
+iframe
+	{
+	height: 100%;
+	width: 100%;
+	display: block;
+	border: none;
+	}
+td
+	{
+	vertical-align: top;
+	}
+a{
+	color: black;	
+}
